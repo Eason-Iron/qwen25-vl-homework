@@ -1,0 +1,80 @@
+{
+  "seed": 42,
+  "per_class": 2,
+  "base": {
+    "metrics": {
+      "samples": 4,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "recall_by_class": {
+        "NORMAL": 1.0,
+        "PNEUMONIA": 0.0
+      },
+      "unparseable": 0
+    },
+    "predictions": [
+      {
+        "image": "00068.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "NORMAL"
+      },
+      {
+        "image": "00604.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "NORMAL"
+      },
+      {
+        "image": "00429.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "NORMAL"
+      },
+      {
+        "image": "00015.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "NORMAL"
+      }
+    ]
+  },
+  "adapter": {
+    "metrics": {
+      "samples": 4,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "recall_by_class": {
+        "NORMAL": 1.0,
+        "PNEUMONIA": 0.0
+      },
+      "unparseable": 0
+    },
+    "predictions": [
+      {
+        "image": "00068.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "NORMAL"
+      },
+      {
+        "image": "00604.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "NORMAL"
+      },
+      {
+        "image": "00429.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "NORMAL"
+      },
+      {
+        "image": "00015.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "NORMAL"
+      }
+    ]
+  }
+}

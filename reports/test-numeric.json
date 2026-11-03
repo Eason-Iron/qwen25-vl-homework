@@ -1,0 +1,808 @@
+{
+  "seed": 42,
+  "per_class": 32,
+  "min_pixels": 3136,
+  "max_pixels": 50176,
+  "excluded_images": [
+    "00015.png",
+    "00068.png",
+    "00429.png",
+    "00604.png"
+  ],
+  "base": {
+    "metrics": {
+      "samples": 64,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "recall_by_class": {
+        "NORMAL": 0.0,
+        "PNEUMONIA": 1.0
+      },
+      "unparseable": 0
+    },
+    "predictions": [
+      {
+        "image": "00066.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00433.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00303.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00136.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00143.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00278.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00111.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00094.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00502.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00620.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00291.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00133.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00476.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00369.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00030.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00141.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00316.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00082.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00598.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00522.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00501.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00372.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00576.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00123.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00085.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00069.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00446.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00490.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00484.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00005.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00349.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00383.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00190.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00032.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00073.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00288.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00280.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00242.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00088.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00347.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00513.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00227.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00252.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00058.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00398.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00301.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00469.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00621.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00138.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00588.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00028.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00478.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00139.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00454.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00442.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00146.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00060.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00500.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00392.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00286.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00027.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00166.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00318.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00378.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      }
+    ]
+  },
+  "adapter": {
+    "metrics": {
+      "samples": 64,
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "recall_by_class": {
+        "NORMAL": 0.625,
+        "PNEUMONIA": 0.375
+      },
+      "unparseable": 0
+    },
+    "predictions": [
+      {
+        "image": "00066.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00433.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00303.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00136.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00143.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00278.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00111.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00094.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00502.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00620.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00291.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00133.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00476.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00369.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00030.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00141.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00316.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00082.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00598.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00522.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00501.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00372.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00576.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00123.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00085.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00069.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00446.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00490.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00484.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00005.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00349.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00383.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00190.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00032.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00073.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00288.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00280.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00242.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00088.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00347.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00513.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00227.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00252.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00058.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00398.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00301.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00469.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00621.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00138.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00588.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00028.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00478.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00139.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00454.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00442.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00146.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00060.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00500.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00392.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00286.png",
+        "label": "PNEUMONIA",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00027.png",
+        "label": "NORMAL",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00166.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      },
+      {
+        "image": "00318.png",
+        "label": "PNEUMONIA",
+        "prediction": "NORMAL",
+        "raw": "0"
+      },
+      {
+        "image": "00378.png",
+        "label": "NORMAL",
+        "prediction": "PNEUMONIA",
+        "raw": "1"
+      }
+    ]
+  }
+}
